@@ -26,7 +26,6 @@ body {
     color: white;
     padding-left: 10%;
     font-weight: 900;
-    background: #1f2937;
 }
 
 .header .nav {
@@ -51,8 +50,12 @@ body {
 @media (max-width: 900px) {
     .header {
         border: none; /* Remove border on small screens */
-        padding: 5%;
+ 
     }
+    body{
+        border: none !important;
+    }
+    
 }
 /*Main Body*/
 
