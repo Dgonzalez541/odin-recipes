@@ -48,6 +48,11 @@ body {
     color: #007BFF;
 }
 
+@media (max-width: 600px) {
+    .header {
+        border: none; /* Remove border on small screens */
+    }
+}
 /*Main Body*/
 
 .main_row_one {
