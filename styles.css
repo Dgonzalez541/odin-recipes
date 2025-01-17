@@ -1,38 +1,35 @@
-﻿body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-}
-
-.header {
+﻿.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5%;
+    padding: 1rem;
     background: #1f2937;
-    color: white;
     width: 100%;
-    box-sizing: border-box; /* Ensure padding doesn't expand width */
+    max-width: 100%; /* Ensure it doesn’t exceed viewport */
+    box-sizing: border-box;
 }
 
 .header .title {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem); /* Scales with viewport size */
     font-weight: 900;
-    white-space: nowrap; /* Prevent wrapping */
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin: 0;
 }
 
 .header .nav {
     display: flex;
-    gap: 1rem;
+    gap: 1rem; /* Fixed gap size */
+    margin: 0; /* Remove additional margins */
 }
 
 .header .nav a {
-    color: white;
     text-decoration: none;
     font-size: 1rem;
     white-space: nowrap;
+    color: white;
+    padding: 0.5rem 1rem;
 }
 
 /*!* Main Body *!*/
