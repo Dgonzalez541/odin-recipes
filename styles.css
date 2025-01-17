@@ -12,6 +12,10 @@ body {
     
     background: #1f2937;
 }
+.some-area
+{
+    background: #1f2937;
+}
 
 /*Header*/
 .header {
@@ -20,6 +24,7 @@ body {
     align-items: center;
     padding: 1%;
     background: #1f2937;
+    border: none;
 }
 
 .header .title {
