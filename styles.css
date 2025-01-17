@@ -18,11 +18,11 @@ body {
     align-items: center;
     padding: 1%;
     background: #1f2937;
-    border: none !important;
+    
 }
 
 .header .title {
-    font-size: 20em;
+    font-size: 2em;
     /*font-weight: bold;*/
     text-align: left;
     color: white;
