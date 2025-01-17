@@ -1,4 +1,11 @@
-﻿body {width: auto!important; overflow-x: hidden!important}
+﻿/*body {width: auto!important; overflow-x: hidden!important}*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    width: 100%;
+}
 
 .header {
     display: flex;
