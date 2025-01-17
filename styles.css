@@ -1,4 +1,6 @@
-﻿.header {
+﻿body {width: auto!important; overflow-x: hidden!important}
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
