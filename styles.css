@@ -54,7 +54,15 @@ body {
     color: #007BFF;
 }
 
-
+@media (max-width: 600px) {
+    .header .title{
+        font-size: 2em;
+        text-align: left;
+        color: white;
+        padding-left: 10%;
+        font-weight: 900;
+    }
+}
 
 /*Main Body*/
 
