@@ -47,16 +47,6 @@ body {
     color: #007BFF;
 }
 
-@media (max-width: 900px) {
-    .header {
-        border: none; /* Remove border on small screens */
- 
-    }
-    body{
-        border: none !important;
-    }
-    
-}
 /*Main Body*/
 
 .main_row_one {
