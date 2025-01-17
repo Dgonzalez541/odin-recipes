@@ -56,7 +56,7 @@ body {
 
 @media (max-width: 600px) {
     .header .title{
-        font-size: 2em;
+        font-size: 20em;
         text-align: left;
         color: white;
         padding-left: 10%;
