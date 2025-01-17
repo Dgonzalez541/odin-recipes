@@ -25,6 +25,8 @@ body {
     padding: 1%;
     background: #1f2937;
     border: none;
+    width: 100%;
+    
 }
 
 .header .title {
@@ -33,7 +35,6 @@ body {
     color: white;
     padding-left: 10%;
     font-weight: 900;
-    width: 100%;
 }
 
 .header .nav {
