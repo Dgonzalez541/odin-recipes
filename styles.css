@@ -5,41 +5,41 @@ body {
     padding: 0;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
-    
     font-style: normal;
-    font-variation-settings:
-            "wdth" 100;
-    
+    font-variation-settings: "wdth" 100;
     background: #1f2937;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
-.some-area
-{
+
+.some-area {
     background: #1f2937;
 }
 
-/*Header*/
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 1rem 5%; /* Flexible padding */
     background: #1f2937;
-    border: none;
     width: 100%;
+    box-sizing: border-box; /* Include padding in width calculations */
 }
 
 .header .title {
-    font-size: 2em;
+    font-size: clamp(1.5rem, 3vw, 2.5rem); /* Responsive font size */
     text-align: left;
     color: white;
-    padding-left: 10%;
     font-weight: 900;
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Prevent overflow if text is too large */
+    text-overflow: ellipsis; /* Add ellipsis if truncated */
 }
 
 .header .nav {
     display: flex;
-    gap: 40%;
-    margin-right: 20%;
+    gap: 2rem; /* Use a fixed gap */
+    margin-right: 0; /* Remove excess margin */
 }
 
 .header .nav a {
@@ -47,21 +47,18 @@ body {
     font-weight: 400;
     color: white;
     transition: color 0.3s ease;
-    font-size: 1.5em;
-    white-space: nowrap; /* Prevents text wrapping */
+    font-size: 1.2rem; /* Adjusted for better scaling */
+    white-space: nowrap; /* Prevent wrapping */
 }
 
 .header .nav a:hover {
     color: #007BFF;
 }
 
-
-
-/*Main Body*/
-
+/* Main Body */
 .main_row_one {
     background: #1f2937;
-    flex: 1
+    flex: 1;
 }
 
 .main_row_two {
@@ -76,12 +73,12 @@ body {
 
 .main_row_four {
     background: white;
-    flex: .8;
+    flex: 0.8;
 }
 
-.main_row_four {
+.main_row_five {
     background: #1f2937;
-    flex: .2;
+    flex: 0.2;
 }
 
 .fill-height-or-more {
@@ -95,10 +92,4 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-
-
-
-
-
-
 
