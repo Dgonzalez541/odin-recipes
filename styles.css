@@ -21,7 +21,7 @@ html, body {
     width: 100%;
     max-width: 100%; /* Ensure it doesn’t exceed viewport */
     box-sizing: border-box;
-    color: white;
+    color: red;
 }
 
 .header .title {
