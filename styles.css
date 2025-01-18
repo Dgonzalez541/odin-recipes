@@ -7,7 +7,6 @@ html, body {
     width: 100%;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
-
     font-style: normal;
     font-variation-settings:
             "wdth" 100;
@@ -46,6 +45,20 @@ html, body {
     white-space: nowrap;
     color: white;
     padding: 0.5rem 1rem;
+}
+
+/* Hover effect */
+.header .nav a:hover {
+    color: #007BFF;
+}
+
+@media (max-width: 768px) {
+    .header .nav {
+        gap: 0.5rem; /* Reduce spacing between links */
+    }
+    .header .nav a {
+        font-size: 0.9rem; /* Slightly smaller font size */
+    }
 }
 
 /*!* Main Body *!*/
