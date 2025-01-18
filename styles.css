@@ -52,7 +52,7 @@ html, body {
     color: #007BFF;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .header .nav {
         gap: 0.5rem; /* Reduce spacing between links */
     }
